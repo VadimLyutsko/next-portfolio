@@ -5,14 +5,68 @@
       { "id": "1", "title": "Какойто текст № 2", "address": "javascript:void(0);" },
       { "id": "2", "title": "Какойто текст № 3", "address": "javascript:void(0);" }
     ],
+
     "mainData": {
-      "title": "MainPage TitleText",
+      "title": "Main TitleText",
       "tabsData": [
+        { "id": "0", "title": "Раздел 1" },
+        { "id": "1", "title": "Раздел 2" },
+        { "id": "2", "title": "Раздел 3" },
+        { "id": "3", "title": "Раздел 4" },
+        { "id": "4", "title": "Раздел 5" }
+      ]
+    },
+
+    "customData": {
+      "title": "Custom TitleText",
+      "customBlocks": [
+        { "id": "0", "title": "Кастомный селект" },
+        { "id": "1", "title": "Кастомный инпут" },
+        { "id": "2", "title": "Что-то из сторонней библиотеки" }
+      ]
+    },
+
+    "tabulationData": {
+      "title": "Tabulation TitleText",
+      "tabsTitle": [
         { "id": "0", "title": "tab 1" },
         { "id": "1", "title": "tab 2" },
         { "id": "2", "title": "tab 3" },
         { "id": "3", "title": "tab 4" },
-        { "id": "4", "title": "tab 5" }
+        { "id": "4", "title": "tab 5" },
+        { "id": "5", "title": "tab 6" }
+      ],
+      "tabsData": [
+        {
+          "id": "0",
+          "title": "tab 1 Title",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). "
+        },
+        {
+          "id": "1",
+          "title": "tab 2 Title",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). "
+        },
+        {
+          "id": "2",
+          "title": "tab 3 Title",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). "
+        },
+        {
+          "id": "3",
+          "title": "tab 4 Title",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). "
+        },
+        {
+          "id": "4",
+          "title": "tab 5 Title",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). "
+        },
+        {
+          "id": "5",
+          "title": "tab 6 Title",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). "
+        }
       ]
     }
   }

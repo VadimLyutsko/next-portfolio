@@ -1,15 +1,19 @@
 @import '../../../styles/variables.module.scss';
 
-.main {
-  margin-bottom: 100px;
-  height: 50vh;
-}
-
-.title {
+.pageTitle {
   font-size: 90px;
   color: $black-color;
   text-align: center;
   font-weight: 500;
   line-height: 90px;
+  margin-bottom: 50px;
+}
+
+.articleTitle {
+  font-size: 80px;
+  color: $black-color;
+  text-align: center;
+  font-weight: 500;
+  line-height: 80px;
   margin-bottom: 50px;
 }

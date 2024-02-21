@@ -1,22 +1,21 @@
 import React from 'react';
-import styles from './Main.module.scss';
-import { MainDataPropsType } from '@/app/types/componentsTypes';
-import clsx from 'clsx';
-import { SpaceGrotesk } from '@/app/fonts';
+import styles from './Custom.module.scss';
+import { CustomDataPropsType } from '@/app/types/componentsTypes';
+import { Title } from '@/components/general/Title/Title';
 
-export const Main: React.FC<MainDataPropsType> = ({ mainData }) => {
-  const stickyTabs = mainData.tabsData.map((tab) => {
+export const Custom: React.FC<CustomDataPropsType> = ({ customData }) => {
+  const fillingBlocks = customData.customBlocks.map((block) => {
     return (
-      <p key={tab.id} className={styles.tab}>
-        {tab.title}
-      </p>
+      <div key={block.id} className={styles.fillingBlock}>
+        {block.title}
+      </div>
     );
   });
 
   return (
     <div className={styles.main}>
-      <h1 className={clsx(styles.title, SpaceGrotesk.className)}>{mainData.title}</h1>
-      <div className={styles.tabsContainer}>{stickyTabs}</div>
+      <Title title={customData.title} isPageTitle />
+      <div className={styles.blocksContainer}>{fillingBlocks}</div>
     </div>
   );
 };

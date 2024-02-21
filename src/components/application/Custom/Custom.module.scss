@@ -2,6 +2,7 @@
 
 .main {
   margin-bottom: 100px;
+  background-color: #eed7d7;
 }
 
 .title {
@@ -13,22 +14,16 @@
   margin-bottom: 50px;
 }
 
-.tabsContainer {
+.blocksContainer {
   display: flex;
   justify-content: space-between;
 }
 
-.tab {
-  font-weight: 500;
-  cursor: pointer;
-  border: 1px solid $black-color;
-  font-size: 28px;
-  text-align: center;
-  background-color: #fff;
-  width: 100%;
-  transition: color 0.5s;
-
-  &:hover {
-    color: $gray-title-color;
-  }
+.fillingBlock {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(blueviolet, 0.25);
 }

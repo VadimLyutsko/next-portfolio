@@ -1,0 +1,15 @@
+@import '../../../styles/variables.module.scss';
+
+.tab {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 28px;
+  transition: color 0.5s;
+
+  &:hover {
+    color: $gray-title-color;
+  }
+}

@@ -13,7 +13,7 @@ export type HeaderBlockType = {
 // MainData
 
 export type MainDataPropsType = {
-  mainData: MainBlockType;
+  title: string;
 };
 
 export type MainBlockType = {
@@ -21,7 +21,36 @@ export type MainBlockType = {
   tabsData: TabType[];
 };
 
-type TabType = {
+export type TabType = {
   id: string;
   title: string;
+};
+
+// CustomData
+
+export type CustomDataPropsType = {
+  customData: CustomBlockType;
+};
+
+export type CustomBlockType = {
+  title: string;
+  customBlocks: TabType[];
+};
+
+// Tabulation
+
+export type TabulationDataPropsType = {
+  tabulationData: TabulationBlockType;
+};
+
+export type TabulationBlockType = {
+  title: string;
+  tabsTitle: TabType[];
+  tabsData: TabulationContentTupe[];
+};
+
+export type TabulationContentTupe = {
+  id: string;
+  title: string;
+  description: string;
 };

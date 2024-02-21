@@ -1,0 +1,35 @@
+@import '../../../styles/variables.module.scss';
+
+.tabulation {
+  margin-bottom: 100px;
+}
+
+.tabsTitleDataContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabsContantDataContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.articleTitle {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.description {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+
+  font-size: 24px;
+  margin-bottom: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
