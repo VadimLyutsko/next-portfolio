@@ -1,36 +1,19 @@
 {
-  "aboutUsData": {
-    "mainText": "Команда <span>разработчиков, менеджеров\nи дизайнеров,</span> создающие IT-продукты\nпосле глубокого погружения в бизнес\nклиента",
-    "title": "Мы - Hawking Bros",
-    "items": [
-      {
-        "id": "1",
-        "year": "2019",
-        "place": "2",
-        "text": "место в России среди аутсорс продакшенов",
-        "image": "https://static-media.streema.com/media/cache/04/18/0418f9c39ec1fdeb2144f26510500298.jpg",
-        "imageAlt": "Achiciv_1"
-      },
-      {
-        "id": "2",
-        "year": "2020",
-        "place": "1",
-        "text": "место в конкурсе продуктовой разработки Pioneum",
-        "image": "https://static-media.streema.com/media/cache/04/18/0418f9c39ec1fdeb2144f26510500298.jpg",
-        "imageAlt": "Achiciv_2"
-      },
-      {
-        "id": "3",
-        "year": "2023",
-        "place": "7",
-        "text": "место в России \nпо поддержке корпоративных решений",
-        "image": "https://static-media.streema.com/media/cache/04/18/0418f9c39ec1fdeb2144f26510500298.jpg",
-        "imageAlt": "Achiciv_3"
-      }
-    ]
-  },
-  "portfolioData": {
-    "portfolioTitle": "Портфолио",
-    "linkToAllProjects": "Все проекты"
+  "homePageData": {
+    "headerData": [
+      { "id": "0", "title": "Какойто текст № 1", "address": "javascript:void(0);" },
+      { "id": "1", "title": "Какойто текст № 2", "address": "javascript:void(0);" },
+      { "id": "2", "title": "Какойто текст № 3", "address": "javascript:void(0);" }
+    ],
+    "mainData": {
+      "title": "MainPage TitleText",
+      "tabsData": [
+        { "id": "0", "title": "tab 1" },
+        { "id": "1", "title": "tab 2" },
+        { "id": "2", "title": "tab 3" },
+        { "id": "3", "title": "tab 4" },
+        { "id": "4", "title": "tab 5" }
+      ]
+    }
   }
 }

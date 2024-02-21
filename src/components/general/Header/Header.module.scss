@@ -1,0 +1,19 @@
+@import '../../../styles/variables.module.scss';
+
+.header {
+  background-color: #e0b6b6;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.block {
+  width: calc(100vw / 3);
+  border: 1px solid $gray-color;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,34 @@
+@import '../../../styles/variables.module.scss';
+
+.main {
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 90px;
+  color: $black-color;
+  text-align: center;
+  font-weight: 500;
+  line-height: 90px;
+  margin-bottom: 50px;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid $black-color;
+  font-size: 28px;
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  transition: color 0.5s;
+
+  &:hover {
+    color: $gray-title-color;
+  }
+}
