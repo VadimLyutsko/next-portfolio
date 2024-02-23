@@ -1,0 +1,19 @@
+@import '../../../styles/variables.module';
+
+.container {
+  // overflow: hidden;
+}
+
+.swiper {
+  background-color: #d2c1c1;
+  width: calc(100vw - (100vw - 1720px) / 2);
+  // width: 100vw;
+  overflow: hidden;
+}
+
+.slide {
+  background-color: rgb(137, 130, 93);
+  // max-width: 150%;
+  height: 150px;
+  width: 300px;
+}

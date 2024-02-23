@@ -1,0 +1,29 @@
+@import '../../../styles/variables.module.scss';
+
+.main {
+  margin-bottom: 100px;
+  background-color: #eed7d7;
+}
+
+.title {
+  font-size: 90px;
+  color: $black-color;
+  text-align: center;
+  font-weight: 500;
+  line-height: 90px;
+  margin-bottom: 50px;
+}
+
+.blocksContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fillingBlock {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(blueviolet, 0.25);
+}

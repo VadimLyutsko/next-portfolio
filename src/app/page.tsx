@@ -7,6 +7,7 @@ import { Custom } from '@/components/application/Custom/Custom';
 import { StickyTabs } from '@/components/general/StickyTabs/StickyTabs';
 import { Tabulation } from '@/components/application/Tabulation/Tabulation';
 import { Container } from '@/components/general/Container/Container';
+import { MySwiper } from '@/components/general/MySwiper/MySwiper';
 
 export default async function Home() {
   const res: MainPageFetchType = await getData();
@@ -18,6 +19,7 @@ export default async function Home() {
       <Main title={res.mainData.title} />
       <Custom customData={res.customData} />
       <Tabulation tabulationData={res.tabulationData} />
+      <MySwiper projectsData={res.projectsData} />
     </Container>
   );
 }

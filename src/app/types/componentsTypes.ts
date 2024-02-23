@@ -54,3 +54,16 @@ export type TabulationContentTupe = {
   title: string;
   description: string;
 };
+
+// Projects
+
+export type ProjectPropsType = {
+  projectsData: ProjectPropsType[];
+};
+
+export type ProjectsBlockType = {
+  id: string;
+  unHoverText: string;
+  title: string;
+  description: string;
+};
